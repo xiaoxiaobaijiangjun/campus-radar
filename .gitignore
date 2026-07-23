@@ -1,0 +1,17 @@
+# Personal config (contains user-specific job category, keywords, etc.)
+config.json
+
+# Runtime state (contains seen postings, not for sharing)
+state/seen_postings*.json
+
+# Generated outputs
+*.xlsx
+digest_*.md
+
+# Temp files
+candidates.json
+new_only.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
